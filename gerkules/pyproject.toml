@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "gerkules"
+version = "0.1.0"
+description = ""
+authors = ["AlexMois77 <159935651+AlexMois77@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+aiogram = "^3.8.0"
+python-dotenv = "^1.0.1"
+mongoengine = "^0.28.2"
+certifi = "^2024.6.2"
+aiohttp = "^3.9.5"
+beautifulsoup4 = "^4.12.3"
+lxml = "^5.2.2"
+fastapi = "^0.112.0"
+uvicorn = "^0.30.5"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
